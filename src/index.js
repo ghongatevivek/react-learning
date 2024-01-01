@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Heading from './Heading';
+import Ulli from './Ulli';
+
 import './index.css'
 
 const firstName = 'Vivek';
@@ -25,5 +28,7 @@ ReactDOM.render(
             <img src= {img2} alt='Sample Image' />
             <img src= {img3} alt='Sample Image' />
         </div>
+        <Heading/ >
+        <Ulli/ >
     </>,
     document.getElementById('root'));
